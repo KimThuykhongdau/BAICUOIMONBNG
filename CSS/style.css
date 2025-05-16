@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width: 100%;min-height: 100px;
+	font-family:"LNTH-Daybreaker"; font-size: 30px;margin: 0
+}
+main{
+	width:100%;
+	min-height: 100px
+}
+header{
+	width:100% ; height: 150px; background-color: #FFDE95;
+	font-size: 85px
+}
+.img:hover{
+	background-color: none
+}
+.menu ul{
+	margin-top: 10px; list-style: none; display: flex
+}
+.menu ul li{
+	position: relative
+}
+.menu .dropdown{
+position:absolute; left: 0 ; top: 85% ; display: flex;flex-direction: column; width: 250px;height: 370px; background-color:#FFDE95; display:none;border-bottom-left-radius: 50px;border-bottom-right-radius: 50px
+}
+.dropdown li{
+	border-bottom: 1px solid #6D5305 ;
+	padding: 10px 5px;
+	border-radius: 50px;
+	text-decoration-skip: spaces
+}
+.menu li:hover .dropdown{
+	display:block;
+	text-decoration: none;
+	padding: 10px;
+	position:absolute
+}
+
+.menu{
+	padding: 10px
+}
+.menu ul li a{
+	padding: 10px 10px; text-decoration: none; font-size: 30px; border-radius: 30px; color:#666045;padding-right: 15px
+} 
+.menu ul li a:hover{
+	background-color:#6D5305; color:#FFDE95 ;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+.button{
+	background-color: #D7B80F;
+	color: #6D5305
+}
+.button:hover{
+	background-color:#6D5305;
+	color:#FFDE95
+}
+.lien-he{
+	color: #6D5305;
+}
+.tich-co{
+	color: #6D5305;
+	text-align:center
+}
+.menu-le ul{
+	margin: 10px; list-style: none; display: flex
+}
+.menu-le{
+	margin-bottom: 30px
+}
+.menu-le ul li a{
+	padding: 8px 10px; text-decoration: none; font-size: 20px; border-radius: 30px; color:#6D5305
+} 
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:80px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #FFDE95
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#6D5305;
+      text-decoration: none; }
+aside{
+	width: 100%;min-height: 200px
+}
+.row{
+	position: relative
+}
+.col-8{
+	font-size: 20px;
+	display: flex
+}
+.text-center{
+	color: black;
+}
+.text-center:hover{
+	color:#6D5305;
+	text-decoration:underline;
+}
+.mo-dau{
+	font-family:"1FTV VIP Mestika";
+	font-size: 35px;
+	text-align: center;
+	color:#6D5305
+}
+.space{
+	width:100px ; height: 80px;
+}
+.story{
+	font-family:"1FTV VIP Mestika";
+	font-size: 35px;
+	text-align: center;
+	color:#6D5305
+}
+.noi-dung{
+	font-family: "1FTV VIP Mestika";
+	font-size: 30px;
+	text-align: justify;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: #6D5305;
+	position: absolute
+}
+.clip{
+	width: 100%; position: absolute;opacity: 50%;
+	align-items: center;
+}
+.cover{
+	width: 100%;
+	height: 830;
+	position: absolute;
+	left: 0;
+	top:1%;
+	background-color:#FFDE95;
+}
+.hinh{
+	width:100%;
+	position:relative;
+}
+.icon{
+	width: 80%;
+	height: 40px;
+	position: absolute;
+	left: 10%;top: -100%;
+	display: flex;
+	justify-content: space-around;
+	transition: all 1s
+}
+.icon a{
+	width: 40px; height: 40px;
+	background-color: #6D5305;
+	color: #FFDE95;
+	border-radius: 50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-decoration: none
+}
+.icon a:hover{
+	background-color: #FFDE95;color: #6D5305
+}
+.hinh:hover .icon{
+	top: 40%}
+.text-center{
+	background-color: #6D5305;
+	width: 200px;
+	height: 45px;
+	color: #FFDE95;
+	border-radius: 50px;
+}
+.button-2{
+	font-family:"1FTV VIP Mestika";
+	font-size: 35px;
+	text-align: center;
+	color:#6D5305;
+	background-color: #FFDE95;
+	width: 350px;
+	border-radius: 30px;
+	margin-left:430px
+}
+.button-2:hover{
+	background-color: #6D5305;
+	color: #FFDE95
+}
+.button-2 a{
+	text-decoration: none;
+	color: #6D5305
+}
+.button-2 a:hover{
+	background-color: #6D5305;
+	color: #FFDE95
+}
+footer{
+	width: 100%; 
+	height: 180px; 
+	background-color:#FFDE95; 
+	clear: both; 
+	margin-top: 900px;
+	position: relative;
+	display: flex
+}
+footer ul{
+	list-style:none;
+	padding-bottom: 20px
+}
+footer ul li a{
+	color: #6D5305;
+	text-decoration: none;
+	font-family: "1FTV Ranoya";
+	font-size: 30px;
+}
+.cuoi-trang{
+	margin-top: 25px;
+}
+.tieu-de{
+	padding: 20px;
+}
+.form-control{
+	padding: 8px; margin-bottom: 10px; width: 100%
+}
+.btn{
+	padding: 10px 20px;
+	background-color:#6D5305; border: none; color: #FFDE95; border-radius:15px; cursor:pointer; margin-right: 10px;
+	font-family: "1FTV Ranoya"
+}
+.btn:hover{
+	background-color: #FFDE95;color:#6D5305
+}
+.btn-nhap{
+	padding: 10px 20px;
+	background-color: #D17607; border: none; color: white; border-radius:15px; cursor:pointer
+}
+.btn-nhap:hover{
+	background-color: #C40622
+}
+.w-40{
+	width: 40%;padding: 15px;float: left
+}
+.w-60{
+	width: 60%;padding: 15px;float: right
+}
+.text-xanh{
+	color: #6D5305
+}
+.vien-xam{
+	width: 100%;min-height: 300px; border: 2px solid #6D5305; border-radius: 40px;padding: 15px;margin-bottom: 20px;
+	color: #6D5305
+}
+.text-do{
+	font-size: 30px;
+	color: darkred;
+}
+.icon-cuoi{
+	display:flex;
+}
+.icon-cuoi li a{
+	margin: 5px; list-style: none; display: flex
+}
